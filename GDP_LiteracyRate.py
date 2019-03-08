@@ -7,7 +7,7 @@ df = pd.read_csv('cb.csv') #combination of the
 fig, ax = plt.subplots()
 cb_csv = ax.scatter(df["GDP Per Capita"], df["Amount"])
    
-ax.set_xlabel("GDP Per Capita PPP")
+ax.set_xlabel("GDP Per Capita (PPP)")
 ax.set_ylabel("Literacy Rate %")
     
 plt.show()
